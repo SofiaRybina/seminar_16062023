@@ -24,3 +24,5 @@ Console.WriteLine($"X2={x2},Y2={y2}");
 
 double AB = Math.Sqrt(((x2-x1)*(x2-x1)) + (y2-y1)*(y2-y1));
 Console.WriteLine($"AB -> {AB}");
+
+//тестовый коммит
