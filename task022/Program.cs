@@ -32,3 +32,24 @@ void GetNum(int num)
 
 int n = Prompt("Input N: ");
 GetNum(n);
+
+//Альтернативный код
+
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// if (number < 1)
+// {
+// Console.WriteLine("Некорректные данные");
+// return;
+// }
+// SquareTable(number);
+
+// void SquareTable(int num)
+// {
+// for (int i = 1; i <= num; i++)
+// {
+// int square = i * i;
+// Console.WriteLine($"{i} {square}");
+// }
+// }
